@@ -1,0 +1,64 @@
+:root {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: #233346;
+  background: #f3f5f6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+  --ink: #132238;
+  --ink-soft: #50657d;
+  --paper: #f3f5f6;
+  --surface: #fff;
+  --line: #e2e7eb;
+  --line-strong: #d3dbe2;
+  --green: #1d7a68;
+  --green-soft: #eaf5f1;
+  --amber: #a76b13;
+  --amber-soft: #fff4e1;
+  --red: #b44645;
+  --red-soft: #fff0ef;
+  --mono: 'Cascadia Code', 'SFMono-Regular', Consolas, monospace;
+  --heading: 'Segoe UI', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--paper);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid #65a99b;
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #fff;
+  background: #1d7a68;
+}
